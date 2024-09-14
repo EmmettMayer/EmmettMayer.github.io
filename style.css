@@ -1,0 +1,80 @@
+body{
+    background-color: plum;
+}
+
+.title{
+    font-size: 68px;
+    text-align: center;
+    color: #03b588;
+}
+
+table{
+    margin: auto;
+    text-align: center;
+    background-color: grey;
+}
+
+#inner{ 
+    text-align: left; margin: 0 auto; 
+    
+}
+
+table td{
+    
+    width: 350px;
+    word-wrap: break-word;
+    font-size: 20px;
+}
+
+tr, td {
+  border-bottom: 1px solid;
+  border-color: purple;
+}
+
+.tuning{
+    height: 200px;
+}
+
+span{
+    color: #296b4c;
+}
+
+h1{
+    text-align: center;
+}
+
+div{
+    color: #9419a4;
+}
+
+.subtitle{
+    font-size: 80px;
+}
+
+#five{
+    text-align: center;
+    font-size: 30px;
+}
+
+iframe{
+    height: 600px;
+    width: 900px;
+    display:block; 
+    margin:auto;
+}
+
+img.filtered-image {
+    animation: invert 2s linear infinite;
+    display:block; 
+    margin:auto;
+}
+
+@keyframes invert {
+    from {
+        filter: invert(0%);
+    }
+    
+    to {
+        filter: invert(100%);
+    }
+}
